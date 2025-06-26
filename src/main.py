@@ -214,7 +214,7 @@ def processar_pergunta(pergunta, dados_projetos=None):
                     direcoes = vision_model.generate_content(
                         contents=[
                             {"role": "user", "parts": [
-                                "Você é um Agente de IA de localização interna dentro de um centro de convenções do Senac. Seu nome é 'Agente de IA'.",
+                                "Você é um Agente de IA de localização interna dentro de um centro de convenções do Senac. Seu nome é 'Senalexa'.",
                                 "As imagens enviadas representam os dois andares do prédio. O arquivo 'Terreo.jpg' é o andar térreo (parte de baixo) e 'superior.jpg' é o andar superior (parte de cima).",
                                 "Neste prédio, existem DUAS escadas principais que conectam os andares:",
                                 "- A primeira escada fica próxima ao espaço chamado 'Cavalo'.",
