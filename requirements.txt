@@ -1,0 +1,18 @@
+# Dependências principais
+SpeechRecognition>=3.10.0
+gtts>=2.5.0
+pydub>=0.25.1
+google-generativeai>=0.8.0
+pandas>=2.0.0
+
+# Dependências de áudio (podem precisar de instalação manual no Raspberry Pi)
+# Para Windows: instala automaticamente
+# Para Raspberry Pi: use 'sudo apt install python3-pyaudio'
+pyaudio>=0.2.11; sys_platform == "win32"
+
+# Alternativas para reprodução de áudio
+playsound>=1.2.2
+
+# Dependências adicionais para compatibilidade
+requests>=2.25.0
+urllib3>=1.26.0

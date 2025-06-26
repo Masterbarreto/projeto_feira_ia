@@ -1,0 +1,16 @@
+# Dependências específicas para Raspberry Pi
+# Use este arquivo se houver problemas com o requirements.txt principal
+
+SpeechRecognition>=3.10.0
+gtts>=2.5.0
+pydub>=0.25.1
+google-generativeai>=0.8.0
+pandas>=2.0.0
+requests>=2.25.0
+urllib3>=1.26.0
+
+# NOTA: PyAudio deve ser instalado via sistema:
+# sudo apt install python3-pyaudio
+
+# Para reprodução de áudio, use mpg123:
+# sudo apt install mpg123
